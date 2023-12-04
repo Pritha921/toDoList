@@ -1,0 +1,25 @@
+body{
+    height:100vh;
+    background: linear-gradient(#E8F3D6,#F1D4D4);
+
+}
+
+.app{
+    position:absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    top:30px
+}
+
+#input{
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+
+.input-group{
+    padding: 2em, 2.5em;
+   
+}
