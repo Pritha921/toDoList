@@ -35,6 +35,7 @@
 .list-container{
     display: flex;
     justify-content: space-between;
+    padding:5px;
 }
 .list-wrap{
     width:100%
