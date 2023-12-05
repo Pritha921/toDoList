@@ -18,25 +18,23 @@
 
 <body>
     <div class="app">
-        <div id="input">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="What do you have planned?"
-                    aria-label="Input of task" aria-describedby="button-addon2">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+        <div class="container">
+            <div id="wrapper">
+                <input type="text" placeholder="What's in your mind?"/>
+                <button id="add-btn">Add</button>
+            </div>
+            <div id="tasks">
+                <p id="pending-tasks">
+                    You have <span class="count-value">0</span>
+                    taks(s) to complete.
+                </p>
             </div>
         </div>
-        <div id="tasks">
-            <p id="pendingTasks">
-                You have <span class="currentValue">0</span> task(s) to complete.
-            </p>
-        </div>
-        <div class="taskList">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
-                
-              </div>
-        </div>
+        <p class="error">You can't leave a task empty.
+        </p>
+     
     </div>
+    <script src="main.js"></script>
 
 </body>
 
