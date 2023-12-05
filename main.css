@@ -1,3 +1,113 @@
+.app {
+    min-height: 100vh;
+    background: linear-gradient(#E8F3D6, #F1D4D4);
+    padding: 20px;
+}
+
+.container-div {
+    background-color: rgb(16, 92, 158);
+    margin:auto;
+    /* margin-top: 10px; */
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+    border-radius: 0.8em;
+}
+
+#wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.task-list {
+    background-color: lightblue;
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.8em;
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-between;
+}
+.list-wrap{
+    width:100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    padding:0;
+    margin:0
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -70,4 +180,4 @@
     padding: 1em 0;
     border-radius: 0.8em;
     display: none;
-}
+} */

@@ -18,23 +18,39 @@
 
 <body>
     <div class="app">
-        <div class="container">
+        <div class="container-div">
             <div id="wrapper">
-                <input type="text" placeholder="What's in your mind?"/>
-                <button id="add-btn">Add</button>
-            </div>
-            <div id="tasks">
-                <p id="pending-tasks">
-                    You have <span class="count-value">0</span>
-                    taks(s) to complete.
-                </p>
+                <!-- <input type="text" placeholder="What's in your mind?"> -->
+                <!-- <button id="add-btn">Add</button> -->
+                <input type="text" class="form-control" placeholder="What's on Your mind??" aria-label="Username"
+                    aria-describedby="basic-addon1">
+                <button type="button" class="btn btn-light">Add</button>
             </div>
         </div>
-        <p class="error">You can't leave a task empty.
-        </p>
-     
-    </div>
-    <script src="main.js"></script>
+
+
+        <div class="task-list">
+            <div class="list-wrap">
+                <div class="list-container">
+                    <div class="form-check task-name">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Task 1 added
+                        </label>
+                    </div>
+                    <div class="task-btn">
+                        <button type="button" class="btn btn-light">Edit</button>
+                        <button type="button" class="btn btn-light">Delete</button>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+
+
+
+
 
 </body>
 
