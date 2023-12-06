@@ -10,3 +10,15 @@ input.addEventListener("keyup",(inputValue)=>{
         addButton.disabled= false;
     }
 })
+
+//add task
+const tasks = [];
+function addTask() {
+    const taskString = tasks.value;
+    const newTask = document.createElement('li');
+    newTask.textContent = taskString;
+    taskList.appendChild(newTask);
+    tasks.push(taskString);
+  }
+  
+  addButton.addEventListener("click", addTask);
