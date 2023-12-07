@@ -13,6 +13,7 @@ input.addEventListener("keyup",(inputValue)=>{
 
 //add task
 const tasks = [];
+const newTask=document.getElementById('task-added')
 function addTask() {
     const taskString = tasks.value;
     const newTask = document.createElement('li');
